@@ -8,7 +8,6 @@ module.exports = {
     application: path.join(__dirname, '../client/index.js')
   },
   output: {
-    filename: 'bundle.js',
     filename: "[name].js",
     chunkFilename: "[id].chunk.js",
     path: path.resolve(path.join(__dirname, '..', 'public'))
